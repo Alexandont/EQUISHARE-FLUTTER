@@ -1,4 +1,4 @@
-# EQUISHARE (Flutter) — versión 0.16.0
+# EQUISHARE (Flutter) 
 
 Migración a Flutter/Dart de la app Android EQUISHARE (Kotlin + Jetpack Compose, MVVM).
 Consume la misma API Node.js (`equishare-api`) y el mismo proyecto de Firebase (`equishare-upn`).
