@@ -1,0 +1,16 @@
+# Reglas del analizador de Dart (flutter analyze).
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - web/**
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Reglas de estilo que solo generan avisos azules (info) y no afectan el funcionamiento.
+    prefer_const_constructors: false
+    prefer_const_literals_to_create_immutables: false
+    prefer_const_constructors_in_immutables: false
+    sort_child_properties_last: false
+    avoid_print: true
